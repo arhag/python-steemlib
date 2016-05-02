@@ -4,10 +4,8 @@ from steemapi.steemasyncclient import SteemAsyncClient, Config
 import aiohttp
 import re
 import dateutil.parser
-from pprint import pprint
 
-
-account = "arhag"  # Replace with  account you wish to monitor
+account = "witness-account"  # Replace with  account you wish to monitor
 
 re_asset = re.compile(r'(?P<number>\d*\.?\d+)\s?(?P<unit>[a-zA-Z]+)')
 
